@@ -55,7 +55,6 @@ def train_and_save_model():
 	val_path = 'Validation/'
 
 	image_labels = os.listdir(images_root_directory + train_path)
-	# 0 - Mask and 1 - No Mask
 	IMG_WIDTH = cfg.IMG_WIDTH
 	IMG_HEIGHT = cfg.IMG_HEIGHT
 	batch_size = cfg.BATCH_SIZE
